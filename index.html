@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <!--=============== FONT AWESOME ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--=============== GOOGLE FONTS ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>تكريم أم كلثوم - كوكب الشرق</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">أم كلثوم</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">الرئيسية</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">عنها</a></li>
+                    <li class="nav__item
+                    "><a href="#songs" class="nav__link">أشهر الأغاني</a></li>
+                    <li class="nav__item"><a href="#timeline" class="nav__link">مسيرتها</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">معرض الصور</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">قالوا عنها</a></li>
+                </ul>
+            </div>
+
+            <!-- Theme change button -->
+            <i class="fas fa-moon change-theme" id="theme-button"></i>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">صوت مصر الخالد</span>
+                    <h1 class="home__name">كوكب الشرق</h1>
+                    <h3 class="home__education">سيدة الغناء العربي</h3>
+
+                    <div class="home__buttons">
+                        <a download="" href="#about" class="button button--ghost">اعرف المزيد</a>
+                        <a href="#about" class="button">عن حياتها</a>
+                    </div>
+                </div>
+
+                <div class="home__handle">
+                     <img src="https://images.pexels.com/photos/7715788/pexels-photo-7715788.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="لقطة فنية" class="home__img">
+                </div>
+
+                <div class="home__social">
+                    <a href="#" class="home__social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="home__social-link"><i class="fab fa-spotify"></i></a>
+                    <a href="#" class="home__social-link"><i class="fab fa-apple"></i></a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class="fas fa-mouse home__scroll-icon"></i>
+                    <span class="home__scroll-name">مرر للأسفل</span>
+                </a>
+            </div>
+        </section>
+        
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">مقدمة</span>
+            <h2 class="section__title">عن أم كلثوم</h2>
+
+            <div class="about__container container grid">
+                <div class="about__img-container">
+                    <img src="https://images.pexels.com/photos/7715781/pexels-photo-7715781.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="أم كلثوم" class="about__img">
+                </div>
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="fas fa-award about__icon"></i>
+                            <h3 class="about__title">النجومية</h3>
+                            <span class="about__subtitle">+50 عاماً من العطاء</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fas fa-music about__icon"></i>
+                            <h3 class="about__title">أعمال خالدة</h3>
+                            <span class="about__subtitle">+300 أغنية</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="fas fa-globe-africa about__icon"></i>
+                            <h3 class="about__title">رمز عربي</h3>
+                            <span class="about__subtitle">صوت الأمة</span>
+                        </div>
+                    </div>
+
+                    <p class="about__description">
+                        أم كلثوم، أو "كوكب الشرق"، هي أسطورة الغناء العربي التي تجاوز تأثيرها حدود الزمان والمكان. بصوتها القوي وإحساسها العميق، استطاعت أن تأسر قلوب الملايين حول العالم، لتصبح رمزاً ثقافياً وفنياً خالداً للأمة العربية بأكملها. من قريتها الصغيرة في الدلتا إلى أكبر مسارح العالم، كانت رحلتها ملحمة من الكفاح والموهبة والمجد.
+                    </p>
+
+                    <a href="#timeline" class="button">مسيرتها الفنية</a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SKILLS (SONGS) ===============-->
+        <section class="skills section" id="songs">
+            <span class="section__subtitle">روائع فنية</span>
+            <h2 class="section__title">من أشهر أغانيها</h2>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">أغاني خالدة</h3>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-music"></i>
+                                <div>
+                                    <h3 class="skills__name">الأطلال</h3>
+                                    <span class="skills__level">كلمات: ابراهيم ناجي | ألحان: رياض السنباطي</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-music"></i>
+                                <div>
+                                    <h3 class="skills__name">أنت عمري</h3>
+                                    <span class="skills__level">كلمات: أحمد شفيق كامل | ألحان: محمد عبد الوهاب</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-music"></i>
+                                <div>
+                                    <h3 class="skills__name">سيرة الحب</h3>
+                                    <span class="skills__level">كلمات: مرسي جميل عزيز | ألحان: بليغ حمدي</span>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="fas fa-music"></i>
+                                <div>
+                                    <h3 class="skills__name">ألف ليلة وليلة</h3>
+                                    <span class="skills__level">كلمات: مرسي جميل عزيز | ألحان: بليغ حمدي</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="fas fa-music"></i>
+                                <div>
+                                    <h3 class="skills__name">للصبر حدود</h3>
+                                    <span class="skills__level">كلمات: عبد الوهاب محمد | ألحان: محمد الموجي</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                               <i class="fas fa-music"></i>
+                                <div>
+                                    <h3 class="skills__name">بعيد عنك</h3>
+                                    <span class="skills__level">كلمات: مأمون الشناوي | ألحان: بليغ حمدي</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES (TIMELINE) ===============-->
+        <section class="services section" id="timeline">
+            <span class="section__subtitle">محطات مضيئة</span>
+            <h2 class="section__title">مسيرتها الفنية</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">النشأة<br>1898-1923</h3>
+                    <span class="services__button">
+                        اقرأ المزيد <i class="fas fa-arrow-left services__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fas fa-times services__modal-close"></i>
+                            <h3 class="services__modal-title">الولادة والنشأة</h3>
+                            <p class="services__modal-description">ولدت فاطمة إبراهيم البلتاجي في قرية طماي الزهايرة. أظهرت موهبة غنائية فذة منذ الصغر، حيث بدأ والدها يصطحبها للإنشاد في الموالد والأفراح وهي ترتدي زي الصبية.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">الانطلاقة<br>1924-1940</h3>
+                    <span class="services__button">
+                        اقرأ المزيد <i class="fas fa-arrow-left services__icon"></i>
+                    </span>
+                     <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fas fa-times services__modal-close"></i>
+                            <h3 class="services__modal-title">الانتقال إلى القاهرة والنجومية</h3>
+                            <p class="services__modal-description">انتقلت إلى القاهرة وبدأت مسيرتها الاحترافية. التقت بكبار الملحنين مثل محمد القصبجي وأحمد رامي الذي كتب لها معظم أغانيها. بدأت بتأسيس أسلوبها الخاص الذي مزج بين الأصالة والتجديد.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">العصر الذهبي<br>1940-1960</h3>
+                    <span class="services__button">
+                        اقرأ المزيد <i class="fas fa-arrow-left services__icon"></i>
+                    </span>
+                     <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fas fa-times services__modal-close"></i>
+                            <h3 class="services__modal-title">لقاء العمالقة</h3>
+                            <p class="services__modal-description">شهدت هذه الفترة تعاونها مع الملحن رياض السنباطي في روائع مثل "الأطلال" و "رباعيات الخيام". كما بدأت في إحياء حفلات شهرية مباشرة على الإذاعة المصرية، والتي كانت حدثًا ينتظره العالم العربي بأسره.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <h3 class="services__title">القمة العالمية<br>1960-1975</h3>
+                    <span class="services__button">
+                        اقرأ المزيد <i class="fas fa-arrow-left services__icon"></i>
+                    </span>
+                     <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="fas fa-times services__modal-close"></i>
+                            <h3 class="services__modal-title">النجومية المطلقة والرحيل</h3>
+                            <p class="services__modal-description">تعاونت مع محمد عبد الوهاب في "أنت عمري" ثم بليغ حمدي في "سيرة الحب" و "ألف ليلة وليلة". قامت بجولات عالمية لدعم المجهود الحربي. رحلت عن عالمنا في عام 1975، لكن صوتها وفنها بقيا خالدين.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">ذكريات خالدة</span>
+            <h2 class="section__title">معرض الصور</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter=".all">الكل</span>
+                <span class="work__item" data-filter=".jewel">مجوهرات</span>
+                <span class="work__item" data-filter=".art">لمسات فنية</span>
+            </div>
+
+            <div class="work__container container grid">
+                <div class="work__card mix jewel all">
+                    <img src="https://images.pexels.com/photos/7088041/pexels-photo-7088041.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="work__img">
+                    <h3 class="work__title">فخامة</h3>
+                    <a href="#" class="work__button">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                <div class="work__card mix art all">
+                    <img src="https://images.pexels.com/photos/7086729/pexels-photo-7086729.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="work__img">
+                    <h3 class="work__title">إلهام</h3>
+                     <a href="#" class="work__button">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                <div class="work__card mix jewel all">
+                    <img src="https://images.pexels.com/photos/7086291/pexels-photo-7086291.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="work__img">
+                    <h3 class="work__title">أناقة</h3>
+                     <a href="#" class="work__button">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                 <div class="work__card mix art all">
+                    <img src="https://images.pexels.com/photos/7715790/pexels-photo-7715790.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="work__img">
+                    <h3 class="work__title">إبداع</h3>
+                     <a href="#" class="work__button">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                 <div class="work__card mix jewel all">
+                    <img src="https://images.pexels.com/photos/7086286/pexels-photo-7086286.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="work__img">
+                    <h3 class="work__title">بريق</h3>
+                     <a href="#" class="work__button">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                <div class="work__card mix art all">
+                    <img src="https://images.pexels.com/photos/7715791/pexels-photo-7715791.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="work__img">
+                    <h3 class="work__title">أسطورة</h3>
+                    <a href="#" class="work__button">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                <div class="work__card mix jewel all">
+                    <img src="https://images.pexels.com/photos/33264462/pexels-photo-33264462.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="work__img">
+                    <h3 class="work__title">ندرة</h3>
+                    <a href="#" class="work__button">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+                <div class="work__card mix art all">
+                    <img src="https://images.pexels.com/photos/19615580/pexels-photo-19615580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="work__img">
+                    <h3 class="work__title">تألق</h3>
+                    <a href="#" class="work__button">
+                        <i class="fas fa-link"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section" id="contact">
+            <span class="section__subtitle">إشادات عالمية</span>
+            <h2 class="section__title">قالوا عنها</h2>
+
+            <div class="testimonial__container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="https://images.pexels.com/photos/35310337/pexels-photo-35310337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">نجيب محفوظ</h3>
+                        <p class="testimonial__description">
+                            "أعظم صوت نسائي في تاريخ البشرية، وهي تمثل الكمال والجمال الذي لا يضاهى في الفن العربي."
+                        </p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="https://images.pexels.com/photos/7086293/pexels-photo-7086293.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">شارل ديغول</h3>
+                        <p class="testimonial__description">
+                             "لم تهزني في حياتي إلا شخصيتان: ونستون تشرشل، وهذه السيدة العظيمة، أم كلثوم."
+                        </p>
+                    </div>
+                     <div class="testimonial__card swiper-slide">
+                        <img src="https://images.pexels.com/photos/7715790/pexels-photo-7715790.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="" class="testimonial__img">
+                        <h3 class="testimonial__name">ماريا كالاس</h3>
+                        <p class="testimonial__description">
+                            "صوت لا يصدق، إنه مثال للكمال الصوتي الذي لا يمكن العثور عليه في الغرب."
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">أم كلثوم</h1>
+
+            <ul class="footer__list">
+                <li><a href="#about" class="footer__link">عنها</a></li>
+                <li><a href="#work" class="footer__link">معرض الصور</a></li>
+                <li><a href="#songs" class="footer__link">أشهر الأغاني</a></li>
+            </ul>
+
+            <ul class="footer__social">
+                 <a href="#" class="footer__social-link"><i class="fab fa-youtube"></i></a>
+                 <a href="#" class="footer__social-link"><i class="fab fa-spotify"></i></a>
+                 <a href="#" class="footer__social-link"><i class="fab fa-apple"></i></a>
+            </ul>
+
+            <span class="footer__copy">
+                &#169; كل الحقوق محفوظة. تكريم لروح كوكب الشرق.
+            </span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
